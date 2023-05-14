@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header{
+    background-color: #fc3d73;
+    padding: 60px;
+}
+
+main{
+    background-color: antiquewhite;
+    padding: 12rem;
+}
+
+footer{
+    background-color: #d45e80;
+    padding: 35px;
+}
+
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+    color: #0d0f36;
+    text-align: center;
+}
+
+.paragrafo{
+    font-size: 1.5rem;
+    color: #b31d6a;
+    letter-spacing: 2px;
+}
+
+.copy{
+    text-align: center;
+    color:#0d0f36;
+    letter-spacing: 2px;
+}
+
+.desenvolvedor{
+    color: #0d0f36;
+    margin-top: 1rem;
+    font-size: .8rem;
+    text-align: center;  
+}
+
+@media(max-width: 450px) {
+    
+    header{
+        padding: 20px;
+    }
+    
+    main{
+
+        padding: 5rem;
+        
+    }
+}
